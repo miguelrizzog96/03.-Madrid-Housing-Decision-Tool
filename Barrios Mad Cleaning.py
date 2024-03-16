@@ -42,11 +42,11 @@ if response.status_code == 200:
         cells = row.find_all(['th', 'td'])
         if row_idx == 0:
             # Header row
-            headers = [re.sub(r'\W+', '', cell.text.strip()) for cell in cells ][1:]
+            headers = [re.sub(r'\W+', '', cell.text.strip()) for cell in cells ][1:-1]
         else:
             # Data rows
-            row_data = [re.sub(r'\W+', ' ', cell.text.replace('\xa0', ' ').strip()) for cell in cells]
-            if len(row_data)==5:
+            row_data = [re.sub(r'\W+', ' ', cell.text.replace('\xa0', ' ').strip()) for cell in cells][:-1]
+            if len(row_data)==4:
                 row_data.pop(0)
             data.append(dict(zip(headers, row_data)))
 
@@ -61,8 +61,9 @@ def remove_non_numeric(value):
     return float(''.join(c for c in value if c.isdigit()).strip('²'))/1000
 
 # Apply the function to the 'Nombre' column
-areas['Nombre'] = areas['Nombre'].apply(remove_non_numeric)
 
+areas['Superficiekm²2'] = areas['Superficiekm²2'].apply(remove_non_numeric)
+#%%
 
 # Define the function to add space before capitalized letters
 def add_spaces_to_series(series):
@@ -123,5 +124,3 @@ rankings=rankings.rename(columns={'Barrio':'barrio'})
 barrios_shp=barrios_shp.rename(columns={'BARRIO_MAY':'barrio','NOMDIS':'distrito'})
 areas=areas.rename(columns={'Código':'barrio'})
 distritos_shp=distritos_shp.rename(columns={'DISTRI_MAY':'distrito'})
-
-print ('a')
