@@ -4,25 +4,23 @@ Created on Sat Jan 20 11:01:48 2024
 
 @author: migue
 """
+#%%
+#Import libraries
 import geopandas as gpd
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 import re
 
+#reading input files
+paths=[r"poblacion_1_enero.csv",
+       r"Barrios\Barrios.shp",
+       r"Distritos\Distritos_20210712.shp",
+       r"Ranking barrios - Hoja 1.csv"]
 
-paths=[r"G:\My Drive\04. Passion Projects\poblacion_1_enero.csv",
-       r"G:\My Drive\04. Passion Projects\Barrios\Barrios.shp",
-       r"G:\My Drive\04. Passion Projects\Distritos\Distritos_20210712.shp",
-       r"G:\My Drive\04. Passion Projects\Ranking barrios - Hoja 1.csv"]
+barrios_shp,distritos_shp,rankings,poblacion = gpd.read_file(paths[1]),gpd.read_file(paths[2]),pd.read_csv(paths[3],delimiter=","),pd.read_csv(paths[0],delimiter=";")
 
-
-barrios_shp,distritos_shp = gpd.read_file(paths[1]),gpd.read_file(paths[2])
-rankings,poblacion=pd.read_csv(paths[3],delimiter=","),pd.read_csv(paths[0],delimiter=";")
-# Print the first few rows of the GeoDataFrame
 poblacion=poblacion.loc[(poblacion['fecha']=="1 de enero de 2023") & (poblacion['barrio']!=poblacion['distrito'])]
-
-
 # URL of the Wikipedia page
 url = "https://es.wikipedia.org/wiki/Anexo:Barrios_administrativos_de_Madrid"
 
@@ -44,7 +42,7 @@ if response.status_code == 200:
         cells = row.find_all(['th', 'td'])
         if row_idx == 0:
             # Header row
-            headers = [re.sub(r'\W+', '', cell.text.strip()) for cell in cells]
+            headers = [re.sub(r'\W+', '', cell.text.strip()) for cell in cells ][1:]
         else:
             # Data rows
             row_data = [re.sub(r'\W+', ' ', cell.text.replace('\xa0', ' ').strip()) for cell in cells]
@@ -53,11 +51,12 @@ if response.status_code == 200:
             data.append(dict(zip(headers, row_data)))
 
     # Convert the list of dictionaries to a DataFrame
-    areas = pd.DataFrame(data)
+    areas = pd.DataFrame(data, index=None)
 
 else:
     print(f"Failed to retrieve the page. Status code: {response.status_code}")
 
+#%%
 def remove_non_numeric(value):
     return float(''.join(c for c in value if c.isdigit()).strip('²'))/1000
 
