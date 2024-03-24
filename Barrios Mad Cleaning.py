@@ -107,7 +107,7 @@ def procesar_serie(serie):
         for vocal_acentuada, vocal_sin_acento in reemplazos.items():
             texto = texto.lower().replace(vocal_acentuada, vocal_sin_acento)
             # Reemplazar "LOS, EL, ETC."
-            texto= re.sub('^(e|l).* ','',texto.lower())
+            texto= re.sub('^(e|l).* ','',texto.lower()).replace('palos de moguer','palos de la frontera').replace('san andres','villaverde alto') 
         
         return texto
 
@@ -120,6 +120,8 @@ barrios_shp["NOMDIS"]= procesar_serie(barrios_shp["NOMDIS"])
 rankings['Barrio']=procesar_serie(rankings['Barrio'])
 poblacion['barrio']=procesar_serie(poblacion['barrio'])
 areas['Nombre']=procesar_serie(areas['Nombre'])
+barrios_shp["BARRIO_MAY"]= procesar_serie(barrios_shp["BARRIO_MAY"])
+
 #%%
 #renaming columns
 rankings=rankings.rename(columns={'Barrio':'barrio'})
@@ -128,3 +130,4 @@ areas=areas.rename(columns={'Nombre':'barrio'})
 distritos_shp=distritos_shp.rename(columns={'DISTRI_MAY':'distrito'})
 
 final_output=pd.merge(rankings,areas, on='barrio', how="outer")
+final_output=pd.merge(final_output,barrios_shp, on='barrio', how="outer")
