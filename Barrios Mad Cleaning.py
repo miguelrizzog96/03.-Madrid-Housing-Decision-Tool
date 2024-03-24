@@ -107,8 +107,8 @@ def procesar_serie(serie):
         for vocal_acentuada, vocal_sin_acento in reemplazos.items():
             texto = texto.lower().replace(vocal_acentuada, vocal_sin_acento)
             # Reemplazar "LOS, EL, ETC."
-            texto= re.sub('^(e|l).* ','',texto.lower()).replace('palos de moguer','palos de la frontera').replace('san andres','villaverde alto') 
-        
+            texto= re.sub('^(e|l).* ','',texto.lower()).replace('palos de moguer','palos de la frontera').replace('san andres','villaverde alto')
+            texto= re.sub('^.+ casco historico de villaverde','villaverde alto',texto.lower()) 
         return texto
 
     # Aplicar la función de reemplazo y convertir a mayúsculas
@@ -125,9 +125,20 @@ barrios_shp["BARRIO_MAY"]= procesar_serie(barrios_shp["BARRIO_MAY"])
 #%%
 #renaming columns
 rankings=rankings.rename(columns={'Barrio':'barrio'})
-barrios_shp=barrios_shp.rename(columns={'BARRIO_MAY':'barrio','NOMDIS':'distrito'})
+barrios_shp=pd.DataFrame(barrios_shp.rename(columns={'BARRIO_MAY':'barrio','NOMDIS':'distrito'}))
 areas=areas.rename(columns={'Nombre':'barrio'})
-distritos_shp=distritos_shp.rename(columns={'DISTRI_MAY':'distrito'})
+distritos_shp=pd.DataFrame(distritos_shp.rename(columns={'DISTRI_MAY':'distrito'}))
 
-final_output=pd.merge(rankings,areas, on='barrio', how="outer")
-final_output=pd.merge(final_output,barrios_shp, on='barrio', how="outer")
+
+final_output = pd.merge(pd.merge(rankings, areas, on='barrio', how='outer'),
+                         pd.merge(barrios_shp, poblacion, on='barrio', how='outer'), on='barrio', how='outer')
+final_output.rename(columns={'distrito_x':'distrito'},inplace=True)
+final_output=pd.merge(final_output,distritos_shp, on='distrito',how='outer')
+distinct_names= []
+
+for i in [areas,rankings,barrios_shp,poblacion]:
+    for j in i['barrio']:
+        distinct_names.append(j)
+distinct_names=pd.Series(pd.Series(distinct_names).unique()).sort_values()
+
+final_output=final_output[final_output['barrio']!="AMBROZ"] # ya no existe
