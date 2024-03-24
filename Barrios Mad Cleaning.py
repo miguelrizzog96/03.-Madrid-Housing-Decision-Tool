@@ -130,10 +130,9 @@ areas=areas.rename(columns={'Nombre':'barrio'})
 distritos_shp=pd.DataFrame(distritos_shp.rename(columns={'DISTRI_MAY':'distrito'}))
 
 
-final_output = pd.merge(pd.merge(rankings, areas, on='barrio', how='outer'),
-                         pd.merge(barrios_shp, poblacion, on='barrio', how='outer'), on='barrio', how='outer')
+final_output = pd.merge(pd.merge(rankings, areas, on='barrio', how='outer'),poblacion,
+                                 on='barrio', how='outer')
 final_output.rename(columns={'distrito_x':'distrito'},inplace=True)
-final_output=pd.merge(final_output,distritos_shp, on='distrito',how='outer')
 distinct_names= []
 
 for i in [areas,rankings,barrios_shp,poblacion]:
@@ -142,3 +141,5 @@ for i in [areas,rankings,barrios_shp,poblacion]:
 distinct_names=pd.Series(pd.Series(distinct_names).unique()).sort_values()
 
 final_output=final_output[final_output['barrio']!="AMBROZ"] # ya no existe
+
+### limpiar los shp y escribirlos nuevamente , despues hacer el join en tableau de las 3 tablas, datos, geo_barrios y geo_distritos
