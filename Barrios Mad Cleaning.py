@@ -141,5 +141,6 @@ for i in [areas,rankings,barrios_shp,poblacion]:
 distinct_names=pd.Series(pd.Series(distinct_names).unique()).sort_values()
 
 final_output=final_output[final_output['barrio']!="AMBROZ"] # ya no existe
-
-### limpiar los shp y escribirlos nuevamente , despues hacer el join en tableau de las 3 tablas, datos, geo_barrios y geo_distritos
+final_output.to_csv('final_output.csv')
+gpd.GeoDataFrame(barrios_shp).to_file(r'Barrios\barrios_clean.shp')
+gpd.GeoDataFrame(distritos_shp).to_file(r'Distritos\distritos_clean.shp')

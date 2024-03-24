@@ -1,0 +1,132 @@
+,barrio,Distrito,Vulnerabilidad,Esperanza de vida (años),Renta media hogar (€),Código,Superficiekm²2,fecha,cod_municipio,municipio,cod_distrito,distrito,cod_barrio,num_personas,num_personas_hombres,num_personas_mujeres
+0,ABRANTES,Carabanchel,15.0,"82,6",26.841,117,1.564,1 de enero de 2023,28079.0,Madrid,11, Carabanchel,117,31.691,14.711,16.980
+1,ACACIAS,Arganzuela,85.0,"84,4",43.512,22,1.074,1 de enero de 2023,28079.0,Madrid,2, Arganzuela,22,36.069,16.616,19.453
+2,ADELFAS,Retiro,97.0,"82,5",44.308,32,0.64,1 de enero de 2023,28079.0,Madrid,3, Retiro,32,18.832,8.699,10.133
+3,AEROPUERTO,Barajas,61.0,"81,8",22.835,212,25.132,1 de enero de 2023,28079.0,Madrid,21, Barajas,212,1.902,965,937
+4,ALAMEDA DE OSUNA,Barajas,116.0,"83,9",51.56,211,1.961,1 de enero de 2023,28079.0,Madrid,21, Barajas,211,19.685,9.397,10.288
+5,ALMAGRO,Chamberí,113.0,84,69.449,74,0.937,1 de enero de 2023,28079.0,Madrid,7, Chamberí,74,19.418,8.567,10.851
+6,ALMENARA,Tetuán,32.0,"82,6",27.382,64,0.999,1 de enero de 2023,28079.0,Madrid,6, Tetuán,64,23.057,10.688,12.369
+7,ALMENDRALES,Usera,12.0,"83,4",24.167,124,0.772,1 de enero de 2023,28079.0,Madrid,12, Usera,124,22.834,10.755,12.079
+8,ALUCHE,Latina,33.0,84,30.206,104,2.849,1 de enero de 2023,28079.0,Madrid,10, Latina,104,66.588,30.384,36.204
+10,AMPOSTA,San Blas,18.0,"78,4",20.885,203,0.37,1 de enero de 2023,28079.0,Madrid,20, San Blas-Canillejas,203,9.126,4.258,4.868
+11,APOSTOL SANTIAGO,Hortaleza,71.0,"84,2",35.149,165,1.204,1 de enero de 2023,28079.0,Madrid,16, Hortaleza,165,15.435,7.344,8.091
+12,ARAPILES,Chamberí,93.0,83,40.17,72,0.578,1 de enero de 2023,28079.0,Madrid,7, Chamberí,72,24.190,10.831,13.359
+13,ARAVACA,Moncloa-Aravaca,120.0,82,72.528,97,5.855,1 de enero de 2023,28079.0,Madrid,9, Moncloa-Aravaca,97,27.445,12.836,14.609
+14,ARCOS,San Blas,36.0,"81,5",26.735,204,1.305,1 de enero de 2023,28079.0,Madrid,20, San Blas-Canillejas,204,25.354,11.932,13.422
+15,ARGÜELLES,Moncloa-Aravaca,100.0,"82,9",51.926,92,0.755,1 de enero de 2023,28079.0,Madrid,9, Moncloa-Aravaca,92,24.497,11.207,13.290
+16,ATALAYA,Ciudad Lineal,88.0,"84,1",62.597,158,0.248,1 de enero de 2023,28079.0,Madrid,15, Ciudad Lineal,158,1.622,691,931
+17,ATOCHA,Arganzuela,83.0,"78,8",36.649,27,0.775,1 de enero de 2023,28079.0,Madrid,2, Arganzuela,27,1.949,957,992
+18,BELLAS VISTAS,Tetuán,43.0,"83,1",29.189,61,0.716,1 de enero de 2023,28079.0,Madrid,6, Tetuán,61,29.355,13.428,15.927
+19,BERRUGUETE,Tetuán,39.0,"82,8",26.857,66,0.607,1 de enero de 2023,28079.0,Madrid,6, Tetuán,66,25.694,11.604,14.090
+20,BUENAVISTA,Carabanchel,30.0,"82,8",29.879,116,5.613,1 de enero de 2023,28079.0,Madrid,11, Carabanchel,116,49.151,23.733,25.418
+21,BUTARQUE,Villaverde,31.0,82,28.093,173,6.425,1 de enero de 2023,28079.0,Madrid,17, Villaverde,173,21.316,10.306,11.010
+22,CAMPAMENTO,Latina,40.0,"82,5",30.638,105,9.157,1 de enero de 2023,28079.0,Madrid,10, Latina,105,19.750,9.111,10.639
+23,CANILLAS,Hortaleza,76.0,"84,4",38.581,163,2.516,1 de enero de 2023,28079.0,Madrid,16, Hortaleza,163,39.786,18.485,21.301
+24,CANILLEJAS,San Blas,37.0,"83,1",30.764,207,1.598,1 de enero de 2023,28079.0,Madrid,20, San Blas-Canillejas,207,29.067,13.528,15.539
+25,CARMENES,Latina,27.0,"82,4",27.725,101,1.292,1 de enero de 2023,28079.0,Madrid,10, Latina,101,17.903,8.484,9.419
+26,CASA DE CAMPO,Moncloa-Aravaca,87.0,"82,7",40.609,91,17.47,1 de enero de 2023,28079.0,Madrid,9, Moncloa-Aravaca,91,12.767,5.958,6.809
+27,CASCO HISTORICO DE BARAJAS,Barajas,69.0,83,32.839,213,0.609,1 de enero de 2023,28079.0,Madrid,21, Barajas,213,7.384,3.519,3.865
+28,CASCO HISTORICO DE VALLECAS,Villa de Vallecas,35.0,"82,8",26.951,181,43.046,1 de enero de 2023,28079.0,Madrid,18, Villa de Vallecas,181,40.417,19.413,21.004
+29,CASCO HISTORICO DE VICALVARO,Vicálvaro,52.0,"82,9",33.101,191,21.494,1 de enero de 2023,28079.0,Madrid,19, Vicálvaro,191,35.519,17.009,18.510
+30,CASTELLANA,Salamanca,117.0,"84,1",83.082,46,0.773,1 de enero de 2023,28079.0,Madrid,4, Salamanca,46,16.919,7.423,9.496
+31,CASTILLA,Chamartín,114.0,"85,1",55.731,56,2.16,1 de enero de 2023,28079.0,Madrid,5, Chamartín,56,17.046,7.920,9.126
+32,CASTILLEJOS,Tetuán,63.0,"84,4",44.89,63,0.708,1 de enero de 2023,28079.0,Madrid,6, Tetuán,63,20.570,9.239,11.331
+33,CHOPERA,Arganzuela,64.0,"83,4",30.205,23,0.566,1 de enero de 2023,28079.0,Madrid,2, Arganzuela,23,19.761,8.992,10.769
+34,CIUDAD JARDIN,Chamartín,89.0,"83,5",41.736,53,0.762,1 de enero de 2023,28079.0,Madrid,5, Chamartín,53,18.513,8.234,10.279
+35,CIUDAD UNIVERSITARIA,Moncloa-Aravaca,108.0,"83,2",64.475,93,14.248,1 de enero de 2023,28079.0,Madrid,9, Moncloa-Aravaca,93,16.364,7.603,8.761
+36,COLINA,Ciudad Lineal,81.0,"83,9",52.757,157,0.559,1 de enero de 2023,28079.0,Madrid,15, Ciudad Lineal,157,6.569,2.973,3.596
+37,COMILLAS,Carabanchel,21.0,"83,3",26.236,111,0.666,1 de enero de 2023,28079.0,Madrid,11, Carabanchel,111,22.721,10.491,12.230
+38,CONCEPCION,Ciudad Lineal,58.0,"83,7",33.377,154,0.885,1 de enero de 2023,28079.0,Madrid,15, Ciudad Lineal,154,20.941,9.402,11.539
+39,CORRALEJOS,Barajas,128.0,"84,7",64.548,215,4.633,1 de enero de 2023,28079.0,Madrid,21, Barajas,215,7.626,3.749,3.877
+40,CORTES,Centro,56.0,"80,9",32.403,13,0.592,1 de enero de 2023,28079.0,Madrid,1, Centro,13,10.816,5.350,5.466
+41,COSTILLARES,Ciudad Lineal,86.0,"83,9",64.341,159,1.427,1 de enero de 2023,28079.0,Madrid,15, Ciudad Lineal,159,21.914,10.232,11.682
+42,CUATRO CAMINOS,Tetuán,62.0,"83,5",40.897,62,1.193,1 de enero de 2023,28079.0,Madrid,6, Tetuán,62,34.753,15.537,19.216
+43,CUATRO VIENTOS,Latina,49.0,"80,6",35.486,106,5.419,1 de enero de 2023,28079.0,Madrid,10, Latina,106,6.122,3.068,3.054
+44,DELICIAS,Arganzuela,82.0,"83,5",37.964,25,1.057,1 de enero de 2023,28079.0,Madrid,2, Arganzuela,25,28.575,13.463,15.112
+45,GOLOSO,Fuencarral-El Pardo,112.0,"88,7",52.624,88,26.509,1 de enero de 2023,28079.0,Madrid,8, Fuencarral-El Pardo,88,19.036,9.377,9.659
+46,PARDO,Fuencarral-El Pardo,75.0,"80,2",36.34,81,187.642,1 de enero de 2023,28079.0,Madrid,8, Fuencarral-El Pardo,81,3.421,1.716,1.705
+47,PLANTIO,Moncloa-Aravaca,125.0,"79,2",114.186,96,3.554,1 de enero de 2023,28079.0,Madrid,9, Moncloa-Aravaca,96,3.044,1.413,1.631
+48,VISO,Chamartín,126.0,"84,7",113.001,51,1.708,1 de enero de 2023,28079.0,Madrid,5, Chamartín,51,17.274,7.810,9.464
+49,EMBAJADORES,Centro,42.0,82,23.833,12,1.032,1 de enero de 2023,28079.0,Madrid,1, Centro,12,46.204,24.094,22.110
+50,ENTREVIAS,Puente de Vallecas,2.0,80,20.937,131,5.997,1 de enero de 2023,28079.0,Madrid,13, Puente de Vallecas,131,35.399,16.976,18.423
+51,ESTRELLA,Retiro,119.0,"85,4",57.297,33,1.025,1 de enero de 2023,28079.0,Madrid,3, Retiro,33,22.649,10.393,12.256
+52,FONTARRON,Moratalaz,44.0,"81,8",27.349,145,0.964,1 de enero de 2023,28079.0,Madrid,14, Moratalaz,145,17.333,7.876,9.457
+53,FUENTE DEL BERRO,Salamanca,92.0,"83,9",39.343,43,0.852,1 de enero de 2023,28079.0,Madrid,4, Salamanca,43,20.929,9.129,11.800
+54,FUENTELARREINA,Fuencarral-El Pardo,107.0,"84,9",97.93,82,1.382,1 de enero de 2023,28079.0,Madrid,8, Fuencarral-El Pardo,82,3.410,1.559,1.851
+55,GAZTAMBIDE,Chamberí,94.0,"83,8",42.285,71,0.506,1 de enero de 2023,28079.0,Madrid,7, Chamberí,71,22.959,10.157,12.802
+56,GOYA,Salamanca,105.0,"83,8",47.232,42,0.771,1 de enero de 2023,28079.0,Madrid,4, Salamanca,42,29.477,12.872,16.605
+57,GUINDALERA,Salamanca,99.0,"84,9",44.888,44,1.598,1 de enero de 2023,28079.0,Madrid,4, Salamanca,44,41.964,19.006,22.958
+58,HELLIN,San Blas,24.0,"81,5",22.633,202,0.549,1 de enero de 2023,28079.0,Madrid,20, San Blas-Canillejas,202,9.555,4.375,5.180
+59,HISPANOAMERICA,Chamartín,118.0,"84,2",61.177,54,1.707,1 de enero de 2023,28079.0,Madrid,5, Chamartín,54,31.470,14.159,17.311
+60,HORCAJO,Moratalaz,72.0,"82,2",41.991,142,0.745,1 de enero de 2023,28079.0,Madrid,14, Moratalaz,142,6.339,3.029,3.310
+61,IBIZA,Retiro,106.0,"82,8",44.356,34,0.49,1 de enero de 2023,28079.0,Madrid,3, Retiro,34,21.492,9.568,11.924
+62,IMPERIAL,Arganzuela,84.0,"83,7",41.022,21,0.967,1 de enero de 2023,28079.0,Madrid,2, Arganzuela,21,22.385,10.421,11.964
+63,JERONIMOS,Retiro,121.0,"84,9",68.95,35,1.9,1 de enero de 2023,28079.0,Madrid,3, Retiro,35,6.825,3.177,3.648
+64,JUSTICIA,Centro,68.0,"81,4",35.913,14,0.742,1 de enero de 2023,28079.0,Madrid,1, Centro,14,18.219,9.261,8.958
+65,PAZ,Fuencarral-El Pardo,90.0,"84,4",57.509,85,2.159,1 de enero de 2023,28079.0,Madrid,8, Fuencarral-El Pardo,85,32.192,14.964,17.228
+66,AGUILAS,Latina,34.0,"83,2",29.036,107,3.609,1 de enero de 2023,28079.0,Madrid,10, Latina,107,51.268,23.725,27.543
+67,LEGAZPI,Arganzuela,102.0,"82,9",46.59,24,1.396,1 de enero de 2023,28079.0,Madrid,2, Arganzuela,24,19.468,9.508,9.960
+68,LISTA,Salamanca,103.0,"84,7",46.933,45,0.52,1 de enero de 2023,28079.0,Madrid,4, Salamanca,45,20.969,9.056,11.913
+69,ANGELES,Villaverde,22.0,"83,2",27.746,175,1.944,1 de enero de 2023,28079.0,Madrid,17, Villaverde,175,34.827,16.292,18.535
+70,ROSALES,Villaverde,23.0,"83,3",27.223,174,1.511,1 de enero de 2023,28079.0,Madrid,17, Villaverde,174,37.808,18.121,19.687
+71,LUCERO,Latina,28.0,84,29.136,103,1.679,1 de enero de 2023,28079.0,Madrid,10, Latina,103,36.749,17.156,19.593
+72,MARROQUINA,Moratalaz,66.0,"83,5",39.335,143,1.789,1 de enero de 2023,28079.0,Madrid,14, Moratalaz,143,26.120,11.962,14.158
+73,MEDIA LEGUA,Moratalaz,51.0,"83,5",34.988,144,0.999,1 de enero de 2023,28079.0,Madrid,14, Moratalaz,144,17.323,7.828,9.495
+74,MIRASIERRA,Fuencarral-El Pardo,109.0,"82,8",73.75,87,6.975,1 de enero de 2023,28079.0,Madrid,8, Fuencarral-El Pardo,87,35.676,17.160,18.516
+75,MOSCARDO,Usera,17.0,"82,2",24.962,125,0.908,1 de enero de 2023,28079.0,Madrid,12, Usera,125,26.579,12.531,14.048
+76,NIÑO JESUS,Retiro,124.0,"83,8",69.74,36,0.643,1 de enero de 2023,28079.0,Madrid,3, Retiro,36,15.093,6.812,8.281
+77,NUEVA ESPAÑA,Chamartín,123.0,"84,8",77.392,55,1.788,1 de enero de 2023,28079.0,Madrid,5, Chamartín,55,24.466,11.050,13.416
+78,NUMANCIA,Puente de Vallecas,3.0,"82,8",23.662,136,1.849,1 de enero de 2023,28079.0,Madrid,13, Puente de Vallecas,136,48.720,23.064,25.656
+79,OPAÑEL,Carabanchel,20.0,"82,7",27.181,112,1.106,1 de enero de 2023,28079.0,Madrid,11, Carabanchel,112,33.883,15.556,18.327
+80,ORCASITAS,Usera,25.0,"81,3",25.886,121,1.356,1 de enero de 2023,28079.0,Madrid,12, Usera,121,23.085,10.900,12.185
+81,ORCASUR,Usera,16.0,"80,6",23.155,122,1.384,1 de enero de 2023,28079.0,Madrid,12, Usera,122,14.390,6.987,7.403
+82,PACIFICO,Retiro,104.0,"84,2",40.851,31,0.75,1 de enero de 2023,28079.0,Madrid,3, Retiro,31,33.027,14.809,18.218
+83,PALACIO,Centro,57.0,"79,5",32.445,11,1.471,1 de enero de 2023,28079.0,Madrid,1, Centro,11,23.501,11.557,11.944
+84,PALOMAS,Hortaleza,111.0,"78,8",77.837,161,1.128,1 de enero de 2023,28079.0,Madrid,16, Hortaleza,161,6.922,3.404,3.518
+85,PALOMERAS BAJAS,Puente de Vallecas,7.0,"82,8",27.963,133,1.724,1 de enero de 2023,28079.0,Madrid,13, Puente de Vallecas,133,40.477,18.947,21.530
+86,PALOMERAS SURESTE,Puente de Vallecas,6.0,"82,3",25.307,134,3.118,1 de enero de 2023,28079.0,Madrid,13, Puente de Vallecas,134,43.162,20.491,22.671
+87,PALOS DE LA FRONTERA,Arganzuela,70.0,"83,3",32.218,26,0.643,1 de enero de 2023,28079.0,Madrid,2, Arganzuela,26,25.097,11.797,13.300
+88,PAVONES,Moratalaz,54.0,81,33.197,141,1.016,1 de enero de 2023,28079.0,Madrid,14, Moratalaz,141,8.814,4.035,4.779
+89,PEÑAGRANDE,Fuencarral-El Pardo,79.0,"83,1",44.659,83,2.89,1 de enero de 2023,28079.0,Madrid,8, Fuencarral-El Pardo,83,44.341,20.597,23.744
+90,PILAR,Fuencarral-El Pardo,67.0,"83,6",33.138,84,1.359,1 de enero de 2023,28079.0,Madrid,8, Fuencarral-El Pardo,84,45.610,20.720,24.890
+91,PINAR DEL REY,Hortaleza,59.0,"83,6",33.645,164,2.632,1 de enero de 2023,28079.0,Madrid,16, Hortaleza,164,52.031,23.825,28.206
+92,PIOVERA,Hortaleza,110.0,"83,4",101.62,162,3.139,1 de enero de 2023,28079.0,Madrid,16, Hortaleza,162,15.041,7.211,7.830
+93,PORTAZGO,Puente de Vallecas,5.0,"81,3",22.797,135,1.245,1 de enero de 2023,28079.0,Madrid,13, Puente de Vallecas,135,28.741,13.471,15.270
+94,PRADOLONGO,Usera,8.0,"82,7",21.75,127,1.095,1 de enero de 2023,28079.0,Madrid,12, Usera,127,17.878,8.438,9.440
+95,PROSPERIDAD,Chamartín,91.0,83,42.259,52,1.043,1 de enero de 2023,28079.0,Madrid,5, Chamartín,52,36.027,16.072,19.955
+96,PUEBLO NUEVO,Ciudad Lineal,46.0,"82,8",29.206,152,2.319,1 de enero de 2023,28079.0,Madrid,15, Ciudad Lineal,152,62.840,28.982,33.858
+97,PUERTA BONITA,Carabanchel,11.0,"82,1",24.384,115,1.607,1 de enero de 2023,28079.0,Madrid,11, Carabanchel,115,36.798,17.349,19.449
+98,PUERTA DEL ANGEL,Latina,26.0,"83,2",26.497,102,1.374,1 de enero de 2023,28079.0,Madrid,10, Latina,102,43.292,20.165,23.127
+99,QUINTANA,Ciudad Lineal,45.0,"83,6",29.504,153,0.722,1 de enero de 2023,28079.0,Madrid,15, Ciudad Lineal,153,25.469,11.449,14.020
+100,RECOLETOS,Salamanca,122.0,"84,1",82.755,41,0.87,1 de enero de 2023,28079.0,Madrid,4, Salamanca,41,15.444,6.966,8.478
+101,REJAS,San Blas,60.0,"85,2",36.011,206,5.007,1 de enero de 2023,28079.0,Madrid,20, San Blas-Canillejas,206,17.399,8.495,8.904
+102,RIOS ROSAS,Chamberí,101.0,"84,4",47.942,75,0.971,1 de enero de 2023,28079.0,Madrid,7, Chamberí,75,27.163,11.828,15.335
+103,ROSAS,San Blas,74.0,"83,8",41.993,205,9.388,1 de enero de 2023,28079.0,Madrid,20, San Blas-Canillejas,205,30.751,14.727,16.024
+104,SALVADOR,San Blas,73.0,"84,5",53.791,208,1.881,1 de enero de 2023,28079.0,Madrid,20, San Blas-Canillejas,208,11.202,5.279,5.923
+105,VILLAVERDE ALTO,Villaverde,10.0,82,23.505,171,9.192,1 de enero de 2023,28079.0,Madrid,17, Villaverde,171,47.817,22.826,24.991
+106,SAN CRISTOBAL,Villaverde,4.0,"81,3",17.786,172,1.106,1 de enero de 2023,28079.0,Madrid,17, Villaverde,172,17.270,8.586,8.684
+107,SAN DIEGO,Puente de Vallecas,1.0,"82,1",19.765,132,1.069,1 de enero de 2023,28079.0,Madrid,13, Puente de Vallecas,132,45.104,21.593,23.511
+108,SAN FERMIN,Usera,19.0,"82,1",24.196,123,1.463,1 de enero de 2023,28079.0,Madrid,12, Usera,123,23.598,11.246,12.352
+109,SAN ISIDRO,Carabanchel,9.0,"82,7",24.847,113,1.899,1 de enero de 2023,28079.0,Madrid,11, Carabanchel,113,40.368,18.969,21.399
+110,SAN JUAN BAUTISTA,Ciudad Lineal,80.0,"83,9",55.567,156,1.01,1 de enero de 2023,28079.0,Madrid,15, Ciudad Lineal,156,12.445,5.813,6.632
+111,SAN PASCUAL,Ciudad Lineal,65.0,"84,2",41.228,155,1.052,1 de enero de 2023,28079.0,Madrid,15, Ciudad Lineal,155,18.327,8.349,9.978
+112,SANTA EUGENIA,Villa de Vallecas,48.0,"82,3",35.176,182,2.08,1 de enero de 2023,28079.0,Madrid,18, Villa de Vallecas,182,23.876,11.381,12.495
+113,SIMANCAS,San Blas,38.0,"83,1",29.645,201,2.278,1 de enero de 2023,28079.0,Madrid,20, San Blas-Canillejas,201,28.765,13.560,15.205
+114,SOL,Centro,53.0,"79,1",27.707,16,0.445,1 de enero de 2023,28079.0,Madrid,1, Centro,16,8.164,4.239,3.925
+115,TIMON,Barajas,98.0,83,38.994,214,9.595,1 de enero de 2023,28079.0,Madrid,21, Barajas,214,12.049,5.702,6.347
+116,TRAFALGAR,Chamberí,95.0,"83,5",39.428,73,0.611,1 de enero de 2023,28079.0,Madrid,7, Chamberí,73,24.621,11.147,13.474
+117,UNIVERSIDAD,Centro,55.0,"82,8",28.883,15,0.947,1 de enero de 2023,28079.0,Madrid,1, Centro,15,32.783,16.269,16.514
+118,VALDEACEDERAS,Tetuán,41.0,83,26.531,65,1.163,1 de enero de 2023,28079.0,Madrid,6, Tetuán,65,26.573,12.442,14.131
+119,VALDEFUENTES,Hortaleza,96.0,"83,2",52.806,166,16.778,1 de enero de 2023,28079.0,Madrid,16, Hortaleza,166,69.176,33.831,35.345
+120,VALDEMARIN,Moncloa-Aravaca,127.0,"81,2",111.689,95,3.305,1 de enero de 2023,28079.0,Madrid,9, Moncloa-Aravaca,95,7.156,3.339,3.817
+121,VALDEZARZA,Moncloa-Aravaca,78.0,"83,7",33.997,94,1.397,1 de enero de 2023,28079.0,Madrid,9, Moncloa-Aravaca,94,30.484,14.001,16.483
+122,VALLEHERMOSO,Chamberí,115.0,"84,3",56.812,76,1.068,1 de enero de 2023,28079.0,Madrid,7, Chamberí,76,19.853,8.619,11.234
+123,VALVERDE,Fuencarral-El Pardo,77.0,"82,2",39.881,86,8.977,1 de enero de 2023,28079.0,Madrid,8, Fuencarral-El Pardo,86,64.757,30.851,33.906
+124,VENTAS,Ciudad Lineal,47.0,"83,9",27.436,151,3.198,1 de enero de 2023,28079.0,Madrid,15, Ciudad Lineal,151,50.218,22.868,27.350
+125,VINATEROS,Moratalaz,50.0,"84,3",28.287,146,0.593,1 de enero de 2023,28079.0,Madrid,14, Moratalaz,146,16.885,7.482,9.403
+126,VISTA ALEGRE,Carabanchel,14.0,"83,2",27.013,114,1.589,1 de enero de 2023,28079.0,Madrid,11, Carabanchel,114,47.727,21.823,25.904
+127,ZOFIO,Usera,13.0,"84,3",24.303,126,0.775,1 de enero de 2023,28079.0,Madrid,12, Usera,126,14.382,6.681,7.701
+128,VALLECAS,,,,,183,6.341,1 de enero de 2023,28079.0,Madrid,18, Villa de Vallecas,183,53.208,25.932,27.276
+129,VALDEBERNARDO,,,,,192,2.555,1 de enero de 2023,28079.0,Madrid,19, Vicálvaro,192,17.471,8.330,9.141
+130,VALDERRIVAS,,,,,193,0.643,1 de enero de 2023,28079.0,Madrid,19, Vicálvaro,193,17.760,8.589,9.171
+131,CAÑAVERAL,,,,,194,10.574,1 de enero de 2023,28079.0,Madrid,19, Vicálvaro,194,13.054,6.652,6.402
