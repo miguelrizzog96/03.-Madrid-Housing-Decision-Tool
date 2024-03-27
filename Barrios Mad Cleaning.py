@@ -140,6 +140,13 @@ for i in [areas,rankings,barrios_shp,poblacion]:
         distinct_names.append(j)
 distinct_names=pd.Series(pd.Series(distinct_names).unique()).sort_values()
 
+final_output['num_personas']=final_output['num_personas'].astype('float')
+final_output['Esperanza de vida (años)']=final_output['Esperanza de vida (años)'].apply(lambda x: str(x).replace(',','.')).astype('float')/1000
+
+for i in final_output.columns:
+    if final_output[i].dtype=='float64' and str(i)!='Vulnerabilidad':
+        final_output[i]=final_output[i]*1000
+#%%
 final_output=final_output[final_output['barrio']!="AMBROZ"] # ya no existe
 final_output.to_csv('final_output.csv')
 gpd.GeoDataFrame(barrios_shp).to_file(r'Barrios\barrios_clean.shp')
